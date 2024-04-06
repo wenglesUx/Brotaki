@@ -1,0 +1,267 @@
+/* Raiz do codigo */
+.top-complement{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 0; 
+    height: 0; 
+    bottom: 0;
+    border-left: 100vw solid transparent;
+   
+    border-bottom: 200px solid var(--main-color);
+    margin-bottom: -1px;
+}
+.bottom-complement{
+    content: "";
+
+    display: inline-block;
+   position: absolute;
+   z-index: -1;
+    margin-right: 10px;
+    width: 0; 
+    height: 0; 
+  top: 0;
+    border-right: 100vw solid transparent;
+    border-left: 1px solid transparent;
+    border-top: 200px solid var(--main-color);
+    margin-top: -0.9px;
+}
+.shape-background,
+.shape-background-2,
+.shape-background-3,
+.shape-background-4,
+.shape-background-5 {
+  
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
+        top:0
+    
+}
+section{
+    position: relative !important;
+}
+
+.shape-command{
+    background-color: var(--main-color);
+}
+
+.shape-background-4 {
+ 
+  position:absolute;
+}  
+ /* perguntas frequentes */ 
+
+#question,
+#response{
+
+background-color: var(--default-color);
+ width:80vw;
+ border-radius: 30px;
+ padding: 10px 20px;
+ text-align: left;
+ transition: .5s ease-in-out;
+
+
+}
+#response{
+    background-color:whitesmoke ;
+    margin-top: 10px;
+    transition: .5s ease-in-out !important;
+    text-wrap: wrap;
+}
+.response{
+    transition:.6s  linear !important
+}
+details>summary {
+ 
+    list-style: none;
+  }
+summary::-webkit-details-marker {
+    display: none
+  }
+  
+  details{
+    display:flex;
+    justify-content: space-between;
+  }
+
+  summary::after {
+    /* content: ' ►';
+    transition: .2s linear;
+   
+    align-self: flex-end; */
+   
+  }
+  
+  
+  details[open] summary:after {
+    /* content: " ▼"; */
+   
+    
+  }
+  /* area de hover */
+  .navbar li a:hover{
+    background-color: var(--tertiary-font-color);
+    border-radius: 10px;
+    color:var(--main-color);
+    transition:.3s linear
+  }
+  .button-hover:hover{
+    transform: scale(1.1);
+    transition:.1s linear;
+    box-shadow: -1px 1px 2px var(--bg-button-color);
+   
+  }
+  .button-hover:hover > i{
+    color:var(--tertiary-font-color) !important;
+  }
+  /* hover da area de planos */
+#free-plan:hover{
+    background-color: var(--main-color);
+    color:var(--default-color);
+    transition:.4s
+}
+#free-plan:hover > ul .bi-check{
+    color:var(--default-color) !important
+}
+#free-plan:hover > a .button-complement{
+    background-color: var(--plan-button) !important;
+   
+}
+#free-plan:hover > .pro-plan{
+    background-color: var(--bg-button-color) !important;
+    transition:.4s
+}
+#pro-plan{
+    color: black ;
+}
+
+.plan-active{
+    background-color: var(--main-color) !important;
+    color:var(--default-color) !important;
+    transition:.4s
+}
+.icon-active{
+    color:var(--default-color) !important ;
+    transition:.4s
+}
+.button-plan-active{
+    background-color: var(--plan-button) !important;
+    transition:.4s
+}
+main .logo-element-background{
+  margin-top:-7rem ;
+  margin-left:-7rem ;
+  z-index: -1 !important;
+}
+.cupons-area-cards .logo-element-background{
+    right:0;
+    margin-right:-25rem ;
+    z-index: -2 !important;
+}
+.planos .logo-element-background{
+    z-index: -3 !important;
+      margin-left:-10rem ;
+}
+.logo-element-background img{
+    height:100%;
+    opacity: 0.2;
+}
+.cupons-area-cards{
+    overflow: hidden;
+  
+}
+:root{
+    --main-color:#740052;
+    --font-font-color:#666666;
+    --tertiary-font-color:#C799BA;
+    --bg-button-color:#e3ccdc;
+    --font-color:#7a7a7a;
+    --icon-verify-color:#535353;
+    --plan-button:#922070;
+    --default-color:white
+}
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+
+}
+.img-container{
+
+    width: 100vw;
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+input,
+textarea{
+    outline: none !important;
+    border: none;
+}
+/* classes de estilos */
+.flex-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font-color{
+   color: var(--font-font-color);
+}
+.text-emphasis{
+    color:var(--main-color)
+}
+.object-empashis{
+    background-color: var(--main-color);
+}
+.button-complement{
+    padding: 0.9rem 2rem;
+    outline: none;
+    border:none; 
+}
+.border-left{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    
+}
+.border-right{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+}
+.button-secondary{
+    background-color: var(--bg-button-color) !important;
+    color:var(--main-color)
+}
+.button-tertiary{
+  
+    color: var(--tertiary-font-color);
+}
+.icon-color{
+    color:var(--icon-verify-color) !important
+}
+.main-secondary-color{
+    color:var(--tertiary-font-color)
+}
+/* edição direta de items da lading Page */
+#register-btn{
+    background-color: var(--out-color);
+}
+.function-card{
+    background-color: aliceblue;
+    flex:1 300px;
+    color:black;
+    
+}
+.cupom-card{
+    flex: 1 250px !important;
+    box-shadow: 5px 2px 15px #c0c0c0  ;
+}
+.description-modulo {
+    width:67%
+}

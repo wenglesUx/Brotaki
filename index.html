@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fontes (fonte Poppins)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- biblioteca de icones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="/assets/public/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="/assets/public/images/backupimg/logo.png" type="image/x-icon">
+    <!-- link css -->
+    <link rel="stylesheet" href="/assets/public/css/mainStyle.css">
+    <!-- media query -->
+    <link rel="stylesheet" href="/assets/public/css/media.css">
+    <title>Brotaki</title>
+</head>
+<body class="overflow-x-hidden">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow ">
+            <div class="container-fluid d-flex justify-content-between w-100">
+              <a class="navbar-brand" href="#"><img src="/assets/public/images/brotaki-logo.png" alt=""></a>
+              <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+
+              <div  id="navbarNav" class="offcanvas offcanvas-end flex-column-reverse align-self-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <ul class="navbar-nav  d-flex  align-self-end ">
+                  <li class="nav-item">
+                    <a class="nav-link px-3" aria-current="page" href="#Funções">Funções</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Preço</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" href="#">Dúvidas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" aria-disabled="true">Turorial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-3" aria-disabled="true">Contato</a>
+                  </li>
+                  <li class="nav-item object-empashis rounded-3">
+                    <a class="nav-link px-3  text-white" aria-disabled="true">Cadastrar</a>
+                  </li>
+                </ul>
+              </div> -->
+
+      
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                        <ul class="navbar-nav  d-flex  align-self-end ">
+                            <li class="nav-item">
+                              <a class="nav-link px-3" aria-current="page" href="#Funções">Funções</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link px-3" href="#">Preço</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link px-3" href="#">Dúvidas</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link px-3" aria-disabled="true">Turorial</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link px-3" aria-disabled="true">Contato</a>
+                            </li>
+                            <li class="nav-item object-empashis rounded-3">
+                              <a class="nav-link px-3  text-white" aria-disabled="true">Cadastrar</a>
+                            </li>
+                          </ul>
+                      
+                    
+                  </div>
+                </div>
+              
+
+
+            </div>
+        </nav>
+    </header>
+
+<!-- area principal -->
+    <main class="position-relative">
+        <div class="logo-element-background position-absolute w-50 h-50 z-1">
+            <img src="/assets/public/images/backupimg/logo.png" alt="">
+        </div>
+        <div class="top-complement"></div>
+        <div class="main-area d-flex container-fluid ">
+            <div class="information-content d-flex align-items-center justify-content-center flex-column gap-3 mt-5 ">
+                <h3 class="font-color">
+                    <strong>Aumente suas vendas</strong>  com um nosso sistema integrado ao seu
+                </h3>
+                <h1 class=" fw-bold text-emphasis">
+                    WhatsApp e QR Code para MESAS
+                </h1>
+                <p class="fs-5 text-start w-100">Facilidade para você e para o seu cliente!</p>
+                <ul class="infomation-list list-unstyled w-100">
+                    <li class="d-flex ">
+                        <i class="bi bi-patch-check-fill text-emphasis"></i> 
+                        <p class="ms-2" id="information-object">
+                            Você envia o seu catálogo através de um link ou qrcode para mesas
+                        </p>
+                    </li>
+
+                    <li class="d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis"></i>
+                        <p class="ms-2" id="information-object">
+                            O cliente escolhe o produto, monta o pedido
+                        </p>
+                    </li>
+                    <li class="d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis"></i>
+                        <p class="ms-2" id="information-object">
+                            Adiciona as informações e finaliza
+                        </p>
+                    </li>
+                    <li class="d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis"></i>
+                        <p class="ms-2" id="information-object">
+                            Você recebe o pedido no seu WhatsApp ou no Painel Administrativo
+                        </p>
+                    </li>
+                    <li class="d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis"></i>
+                        <p class="ms-2" id="information-object">
+                            Tudo organizado e sem taxas mensais
+                        </p>
+                    </li>
+                </ul>
+                <div class="buttons_main_area d-flex gap-3 w-100">
+                    <a href="" class="button-hover">
+
+                        <button id="demo-btn" class="rounded-3  object-empashis text-white button-complement"> Ver demostração</button>
+                    </a>
+                    <a href="" class="button-hover">
+                        <button id="register-btn" class="rounded-3 button-secondary button-complement">
+                            Cadastrar
+                        </button>
+                       
+                    </a>
+                </div>
+            </div>
+            <div class="banner-area w-50 flex-align img-container container  ">
+                <img  src="/assets/public/images/banner-Mockup.png" alt="">
+            </div>
+        </div>
+    </main>
+
+<!-- area de funcionalidades -->
+   <section id="cd">
+
+    <div class="content-container text-white py-3 position-relative" id="Funções">
+        <div class="function-area container text-center ">
+            <div class="section-title my-5">
+                <h1>Funções</h1>
+                <h5>Conheça algumas Funcionalidades do sistema</h5>
+            </div>
+            
+            <div class="function-cards-area d-flex flex-wrap gap-3 ">
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3 text-center">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Autonomia</h5>
+                    </div>
+                    <p id="card-text">
+                        Manipule seu cardápio do jeito que quiser, cadastrando produtos, categorias, opcionais e adicionais e etc.
+    
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>
+                            Cardápio Digital
+                        </h5>
+                    </div>
+                    <p id="card-text">
+                        Dê ao seu cliente o conforto de realizar seus pedidos através do próprio smartphone.
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>QRCode na Mesa
+                        </h5>
+                    </div>
+                    <p id="card-text">
+                        Facilite o acesso do seu cliente ao seu cardápio por meio de QR Code
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Área do Garçom
+                        </h5>
+                    </div>
+                    <p id="card-text">
+                        Seus garçons poderão realizar os pedidos direto de seus smartphones e acompanhar os status de cada pedido
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Personalize</h5>
+                    </div>
+                    <p id="card-text">
+                        Personalize seu cardápio digital e delivery com as cores e logo do seu negócio
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Painel de Preparo</h5>
+                    </div>
+                    <p id="card-text">
+                        Cada ponto de preparo poderá acompanhar os pedidos e alterar o status à medida que ficam prontos
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Delivery</h5>
+                    </div>
+                    <p id="card-text">
+                        Além do cardápio digital, o sistema conta com uma área dedicada ao delivery
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Entregas</h5>
+                    </div>
+                    <p id="card-text">
+                        Visualize, dê baixa e acompanhe os pedidos realizados, podendo cancelar qualquer item do pedido
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Caixa</h5>
+                    </div>
+                    <p id="card-text">
+                        Lance despesas, acompanhe o fluxo de caixa e tenha total controle com nosso sistema intuitivo
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Promoções</h5>
+                    </div>
+                    <p id="card-text">
+                        Gerencie suas promoções para o cardápio digital e delivery, definindo um intervalo de tempo para a validade.
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Clientes</h5>
+                    </div>
+                    <p id="card-text">
+                        Visualize o cadastro de todos os seus clientes e todos os pedidos realizados por cada um deles
+                    </p>
+                </div>
+    
+                <div class="function-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Relatórios</h5>
+                    </div>
+                    <p id="card-text">
+                        Em tempo real, dados importantes, como: total faturado, ticket médio, pedidos (PDV), estoque, clientes e mais
+                    </p>
+                </div>
+    
+            </div>
+    
+            
+        </div>
+        <div class="shape-background shape-command position-absolute"></div>
+    </div>
+    
+   
+   </section>
+
+<!-- modulo delivery -->
+   <section class="position-relative">
+    <div class="top-complement"></div>
+    <div class="bottom-complement"></div>
+    <div class="modulo-area ">
+        <div class="section-modulo-delivery d-flex">
+            <div class="modulo-mockup-area w-50 img-container">
+                <img src="/assets/public/images/Delivery-mockup.png" alt="">
+            </div>
+
+            <div class="modulo-content-area  flex-column flex-align  ">
+                <div class="section-md-header flex-align gap-4 w-100 ">
+                    <div id="img-section-place">
+                        <img src="/assets/public/images/food-delivery 1.png" alt="">
+                    </div>
+                    <div id="text-header">
+                        <h1 class="text-emphasis fw-bold">
+                            Módulo Delivery
+                        </h1>
+                        <p class="fs-4">
+                            Agilidade e controle total
+                        </p>
+                    </div>
+
+                </div>
+
+                <ul class="infomation-list list-unstyled my-5 ">
+                    <li class="d-flex lh-1 ">
+                        <i class="bi bi-patch-check-fill icon-color "></i> 
+                        <p class="ms-2" id="information-object">
+                            Tenha o controle total de suas entregas
+                        </p>
+                    </li>
+
+                    <li class="d-flex lh-1">
+                        <i class="bi bi-patch-check-fill icon-color "></i>
+                        <p class="ms-2" id="information-object">
+                            Faça Promoções de combos e produtos diferentes                        </p>
+                    </li>
+                    <li class="d-flex lh-1">
+                        <i class="bi bi-patch-check-fill icon-color "></i>
+                        <p class="ms-2" id="information-object">
+                            Veja os itens mais pedidos                        </p>
+                    </li>
+                 
+                </ul>
+
+                <div class="social-section-area ">
+                    <div id="links" class="flex-align gap-4">
+                        <!-- facebook -->
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                            <i class="fs-1 text-emphasis  fa-brands fa-facebook"></i>
+                        </a>
+                        <!-- whathsApp -->
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                            <i class="fs-1 text-emphasis  fa-brands fa-whatsapp"></i>
+                        </a>
+                        <!-- instagram -->
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                            <i class="fs-1 text-emphasis  fa-brands fa-instagram"></i>
+                        </a>
+                        <!-- twitter -->
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                            <i class="fs-1 text-emphasis  fa-brands fa-twitter"></i>
+                        </a>
+                        <!-- mensseger -->
+                        <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                            <i class="fs-1 text-emphasis  fa-brands fa-facebook-messenger"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="description-modulo my-4">
+                    <h4 class="text-emphasis">Divulgue nas redes sociais</h4>
+                    <p>
+                        Compartilhe o cardápio e promoções com seus clientes através do Whatsapp.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+   </section>
+
+
+
+<!-- modulo do cardapio -->
+   <section class="position-relative">
+    <div class="modulo-cardapio container d-flex">
+
+        <div class="modulo-content-area  flex-column flex-align   ">
+            <div class="section-md-header flex-align gap-4 w-100 ">
+                <div id="img-section-place">
+                    <img src="/assets/public/images/qrcode (1) 1.png" alt="">
+                </div>
+                <div id="text-header">
+                    <h1 class="text-emphasis fw-bold">
+                        Módulo Cardápio QR Code
+                    </h1>
+                    <p class="fs-4 main-secondary-color">
+                        Facilidade e conforto para
+                        seus clientes
+                    </p>
+                </div>
+
+            </div>
+
+            <ul class="infomation-list list-unstyled my-5 text-white ">
+                <li class="d-flex lh-1 ">
+                    <i class="bi bi-patch-check-fill "></i> 
+                    <p class="ms-2" id="information-object">
+                        Tenha o controle total de seus pedidos
+                    </p>
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Reduza o número de garçons                
+                </li>
+
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Agilidade no atendimento                
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Veja os pratos mais vendidos                
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Crie cupons de desconto                
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Gerencie os banners do seu cardápio                
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Receba notificações em tempo real com toque de campainha para cada novo pedido               
+                </li>
+             
+            </ul>
+
+            
+            
+        </div>
+
+        <div class="modulo-mockup-area w-50 flex-align img-container ">
+            <img src="/assets/public/images/qr-code-mockup.png" alt="">
+        </div>
+
+    </div>
+    <div class="shape-background-2 shape-command position-absolute"></div>
+   </section>
+
+
+
+   <!-- modulo whatsapp  slider-->
+   <section>
+    
+    <div class="bottom-complement"></div>
+    <div class="area-wathsapp d-flex  container">
+
+        <div class="slider-section-area w-50 flex-align">
+            <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel">
+                <div class="carousel-inner ">
+                  <div class="carousel-item active">
+                    <img src="/assets/public/images/mockupslider.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/public/images/mockupslider-default.png" class="d-block w-100" alt="...">
+                  </div>
+                  
+                </div>
+             
+              </div>
+        </div>
+        <div class="modulo-content-area  flex-column flex-align w-50  ">
+            <div class="section-md-header flex-align gap-4 w-100 ">
+                <div id="img-section-place">
+                    <img src="/assets/public/images/comment 1.png" alt="">
+                </div>
+                <div id="text-header">
+                    <h1 class="text-emphasis fw-bold">
+                        Whatsapp
+                    </h1>
+                    <p class="fs-4">
+                        Estrutura completa
+                    </p>
+                </div>
+
+            </div>
+
+            <ul class="infomation-list list-unstyled my-5 px-5 ">
+                <li class=" lh-1 ">
+                    <div class="header-informations d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis text "></i> 
+                        <p class="ms-2 fw-bold" id="information-object">
+                            Chatbot
+                        </p>
+                    </div>
+                    <p>
+                        Transforme o atendimento ao cliente com nosso chatbot inteligente, disponível 24/7 para responder dúvidas e oferecer suporte
+                    </p>
+                   
+                </li>
+
+                <li class=" lh-1 ">
+                    <div class="header-informations d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis "></i> 
+                        <p class="ms-2 fw-bold" id="information-object">
+                            Sistema Multi atendimento
+                        </p>
+                    </div>
+                    <p>
+                        Maximize a eficiência do seu suporte com nosso sistema de multiatendimento, permitindo gerenciar diversas conversas simultaneamente e diversos atendentes conectados a um único número de WhatsApp                    </p>
+                   
+                </li>
+
+                <li class=" lh-1 ">
+                    <div class="header-informations d-flex">
+                        <i class="bi bi-patch-check-fill text-emphasis"></i> 
+                        <p class="ms-2 fw-bold" id="information-object">
+                            Disparo em massa
+                        </p>
+                    </div>
+                    <p>
+                        Alcance seu público de forma eficaz com nossa ferramenta de disparo em massa, ideal para campanhas de marketing e comunicações importantes                    </p>
+                   
+                </li>
+
+                
+
+             
+             
+            </ul>
+
+            
+            
+        </div>
+
+      
+    </div>
+    <div class="top-complement"></div>
+</section>
+
+
+
+<!-- area integração ifood -->
+   <section class="position-relative">
+     <div class="area-integracao-ifood d-flex  container">
+        <div class="modulo-content-area  flex-column flex-align  ">
+            <div class="section-md-header flex-align gap-4 w-100 ">
+                <div id="img-section-place">
+                    <img src="/assets/public/images/network-analytic 1.png" alt="">
+                </div>
+                <div id="text-header">
+                    <h1 class="text-emphasis fw-bold">
+                        Integração com iFood
+                    </h1>
+                    <p class="fs-4 main-secondary-color">
+                        Funcionalidades que auxiliam no seu processo
+                    </p>
+                </div>
+
+            </div>
+
+            <ul class="infomation-list list-unstyled my-5 text-white ">
+                <li class="d-flex lh-1 ">
+                    <i class="bi bi-patch-check-fill "></i> 
+                    <p class="ms-2" id="information-object">
+                        Agilidade na gestão                    
+                    </p>
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Integração simples com a loja do iFood                       
+                    </p>
+                </li>
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Homologado e totalmente funcional                        
+                    </p>
+                </li>
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Importação completa do cardápio do iFood                      
+                    </p>
+                </li>
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Recebimento de pedidos                        
+                    </p>
+                </li>
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill "></i>
+                    <p class="ms-2" id="information-object">
+                        Gestão abrangente do status dos pedidos do iFood                       
+                    </p>
+                </li>
+             
+            </ul>
+
+         
+        
+            
+        </div>
+
+        <div class="modulo-mockup-area w-50  flex-align  img-container" style="">
+            <img src="/assets/public/images/food-list-mockup.png" alt="" >
+        </div>
+
+     </div>
+     <div class="shape-background-3 shape-command position-absolute "></div>
+   </section>
+
+
+
+<!-- outras integrações -->
+   <section>
+    <div class="bottom-complement"></div>
+    <div class="integracao-links-area container d-flex">
+        <div class="modulo-mockup-area w-50 flex-align img-container">
+            <img src="/assets/public/images/02 Phone Screen Mockup With Phone Holder 2.png" alt="">
+        </div>
+        <div class="modulo-content-area  flex-column flex-align  ">
+            <div class="section-md-header flex-align gap-4 w-100 ">
+                <div id="img-section-place">
+                    <img src="/assets/public/images/link 1.png" alt="">
+                </div>
+                <div id="text-header">
+                    <h1 class="text-emphasis fw-bold">
+                        Outras integrações
+                    </h1>
+                    <p class="fs-4">
+                        Google Maps e Instagram Shop                   
+                     </p>
+                </div>
+
+            </div>
+
+            <ul class="infomation-list list-unstyled my-5 ">
+                <li class="d-flex lh-1 ">
+                    <i class="bi bi-patch-check-fill icon-color "></i> 
+                    <p class="ms-2" id="information-object">
+                        Consulte os endereços facilmente                  
+                    </p>
+                </li>
+
+                <li class="d-flex lh-1">
+                    <i class="bi bi-patch-check-fill icon-color "></i>
+                    <p class="ms-2" id="information-object">
+                        Disponibilize seu cardápio no Instagram                    </p>
+                </li>
+               
+             
+            </ul>
+
+         
+        
+            
+        </div>
+    </div>
+    <div class="top-complement"></div>
+   </section>
+
+<!-- area de cupons -->
+   <section class="position-relative mb-5">
+   
+    <div class="cupons-section-area  ">
+        <div class="main-items d-flex position-relative">
+            <div class="shape-background-4 shape-command position-absolute"></div>
+            <div class="modulo-content-area  flex-column flex-align position-relative   ">
+                <div class="section-md-header flex-align gap-4 w-100 ">
+                    <div id="img-section-place">
+                        <img src="/assets/public/images/basket-shopping-simple 1.png" alt="">
+                    </div>
+                    <div id="text-header">
+                        <h1 class="text-emphasis fw-bold">
+                            Cupons de desconto
+                        </h1>
+                        <p class="fs-4 main-secondary-color">
+                            Dê preços diferenciados                    </p>
+                    </div>
+    
+                </div>
+    
+                <ul class="infomation-list list-unstyled my-5 text-white ">
+                    <li class="d-flex lh-1 ">
+                        <i class="bi bi-patch-check-fill "></i> 
+                        <p class="ms-2" id="information-object">
+                            Impulsione suas vendas e atraia novos clientes com cupons de desconto personalizados, criando ofertas irresistíveis                  
+                        </p>
+                    </li>
+    
+                    <li class="d-flex lh-1">
+                        <i class="bi bi-patch-check-fill "></i>
+                        <p class="ms-2" id="information-object">
+                            Fidelize sua clientela recompensando a lealdade e incentivando compras recorrentes                     
+                        </p>
+                    </li>
+                    <li class="d-flex lh-1">
+                        <i class="bi bi-patch-check-fill "></i>
+                        <p class="ms-2" id="information-object">
+                            Aumente o engajamento em campanhas promocionais utilizando cupons de desconto, uma estratégia eficaz para destacar seu negócio no mercad                       
+                        </p>
+                    </li>
+                   
+                </ul>
+    
+             
+            
+                
+               
+            </div>
+    
+            <div class="modulo-mockup-area w-50 flex-align img-container ">
+                <img src="/assets/public/images/03 Phone Screen Mockup With Phone Holder 1.png" alt="">
+            </div>
+        </div>
+       
+
+        <div class="cupons-area-cards position-relative ">
+            <div class="bottom-complement"></div>
+            <div class="logo-element-background position-absolute w-50 h-50 z-1">
+                <img src="/assets/public/images/backupimg/logo.png" alt="">
+            </div>
+            <div class="function-cards-area d-flex flex-wrap gap-3 container ">
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3 text-center">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Controle de Fiado</h5>
+                    </div>
+                    <p id="card-text">
+                        Você gerencia créditos e débitos de forma rápida, segura e eficiente    
+                    </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>
+                            Módulo de Rifa                        </h5>
+                    </div>
+                    <p id="card-text">
+                        Na compra de qualquer produto, os seus clientes recebem um número e podem participar de um sorteio                    </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>
+                            Estoque
+                        </h5>
+                    </div>
+                    <p id="card-text">
+                        Otimize seu estoque com precisão em tempo real, garantindo eficiência e satisfação do cliente                    </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>
+                            Pdv
+                        </h5>
+                    </div>
+                    <p id="card-text">
+                        Agilize suas vendas com nosso PDV intuitivo, projetado para uma experiência rápida e segura                    </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Impressão</h5>
+                    </div>
+                    <p id="card-text">
+                        Soluções de impressão sob demanda, garantindo qualidade e rapidez                     </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Nota fiscal</h5>
+                    </div>
+                    <p id="card-text">
+                        Emissão de nota fiscal simplificada, assegurando conformidade fiscal com facilidade e rapidez                    </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Controle de ponto</h5>
+                    </div>
+                    <p id="card-text">
+                        Controle completo do seu negócio com espelho de ponto, relatórios abrangentes e mais!                    </p>
+                </div>
+    
+                <div class="function-card cupom-card d-flex flex-column gap-2 text-center px-4 py-5 rounded-3">
+                    <div id="icon-object">
+                        <i class="bi bi-check-circle-fill fs-1 text-emphasis"></i>
+                    </div>
+                    <div id="card-title" class="text-emphasis">
+                        <h5>Cartão fidelidade</h5>
+                    </div>
+                    <p id="card-text">
+                        Fortaleça o relacionamento com seus clientes incentivando retornos e recompensando com benefícios exclusivos                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+    
+   </section>
+
+
+<!-- planos -->
+   <section class="position-relative planos " id="planos">
+    <div class="logo-element-background position-absolute w-50 h-50 z-1">
+        <img src="/assets/public/images/backupimg/logo.png" alt="">
+    </div>
+    
+    <div class="top-complement" ></div>
+    <div class="planos-section-area text-center  py-5">
+        <h1 class="text-emphasis">Planos</h1>
+        <h5>Selecione o plano que melhor atende a sua demanda</h5>
+
+        <div class="plan-selectors d-flex flex-align my-5 py-5 ">
+            <div id="free-plan" class="plan-card py-5 px-5 flex-column flex-column border-left shadow">
+                <div id="header-selector">
+                    <p id="logo-plan">Brotaki</p>
+                    <div id="model-plan" class="fs-2 fw-bold"> Free</div>
+                </div>
+                <hr>
+                <div id="price-area">
+                    <span>R$</span>
+
+                    <span id="price-selector" class="fs-3">0,00</span>
+
+                    <span id="payment-model">/Mês</span>
+                </div>
+                <hr>
+                <ul id="description-plan list-unstyled">
+                    <li class="d-flex ">
+                        <i class="bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                    <li class="d-flex ">
+                        <i class="bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                    <li class="d-flex ">
+                        <i class="bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                    <li class="d-flex ">
+                        <i class="bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                </ul>
+                <a href="" class="">
+                    <button class="button-complement object-empashis rounded-3 text-white button-hover"> Eu quero</button>
+                </a>
+
+            </div>
+            <div id="pro-plan" class=" pro-plan py-5 px-5 flex-align flex-column border-right shadow text-white ">
+                <div id="header-selector">
+                    <p id="logo-plan">Brotaki</p>
+                    <div id="model-plan" class="fs-2 fw-bold"> Pro</div>
+                </div>
+                <hr>
+                <div id="price-area">
+                    <span>R$</span>
+
+                    <span id="price-selector" class="fs-3">0,00</span>
+
+                    <span id="payment-model">/Mês</span>
+                </div>
+                <hr>
+                <ul id="description-plan list-unstyled">
+                    <li class="d-flex ">
+                        <i class="icon-plan bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                    <li class="d-flex ">
+                        <i class="icon-plan bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                    <li class="d-flex ">
+                        <i class="icon-plan bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                    <li class="d-flex ">
+                        <i class="icon-plan bi bi-check text-emphasis fs-4"></i> 
+                        <p class="ms-2" id="information-object">
+                            Lorem ipsum dolor sit amet 
+                        </p>
+                    </li>
+                </ul>
+                <a href="">
+                    <button class="button-complement object-empashis rounded-3 text-white button-hover "> Eu quero</button>
+                </a>
+            </div>
+        </div>
+    </div>
+   </section>
+ 
+<!-- area de duvidas -->
+   <section class="position-relative ">
+   
+        <div class="duvidas-section-area container text-center py-5 flex-align flex-column container" style="height:100vh">
+
+            <h1 class="py-5 text-white ">Dúvidas frequentes</h1>
+            
+            
+            <div class="dropdown d-flex flex-column gap-3 ">
+        
+            
+                <details >
+                    <summary  id="question"  class="d-flex justify-content-between flex-align"> <p id="text-question">Preciso ter um site?</p> <span id="chevron"><i class="bi bi-chevron-compact-down"></i> </span> </summary>
+                
+                        <div id="response" class="response">
+                            <p>
+                                Não, com nossa plataforma você terá uma URL exemplo: (suaempresa.brotaki.com.br) mas você pode optar por comprar um domínio próprio, exemplo: seudelivery.com e apontar para nosso servidor.
+                            </p>
+                        </div>
+                    
+                </details>
+
+                <details>
+                    <summary  id="question"  class="d-flex justify-content-between flex-align" > <p id="text-question">Posso gerenciar meus pedidos?</p> <span id="chevron"><i class="bi bi-chevron-compact-down"></i> </span> </summary>
+                    
+                        <div id="response" >
+                            <p>
+                                
+                                Sim, você terá total acesso ao painel administrativo e pode mudar preços, adicionar produtos e muito mais... (se precisar de ajuda basta falar com o nosso suporte)
+                            </p>
+                        </div>
+                    
+                </details>
+
+                <details>
+                    <summary id="question"  class="d-flex justify-content-between flex-align" >  <p id="text-question">Posso usar outro aplicativo tipo iFood? </p> <span id="chevron"><i class="bi bi-chevron-compact-down"></i> </span></summary>
+                    
+                        <div id="response" >
+                            <p>
+        
+                                Sim, você pode vender em quantos aplicativos quiser!                    
+                            </p>
+                        </div>
+                    
+                </details>
+
+                <details>
+                    <summary id="question"  class="d-flex justify-content-between flex-align"> <p id="text-question">O pedido chega onde? </p> <span id="chevron"><i class="bi bi-chevron-compact-down"></i> </span> </summary>
+                    
+                        <div id="response" >
+                            <p>
+        
+                                Quando alguém fizer o pedido no seu cardápio, ele será enviado diretamente no WhatsApp cadastrado para receber os pedidos ou no seu painel administrativo.                   
+                            </p>
+                        </div>
+                    
+                </details>
+            
+            
+            </div>
+        
+        
+        </div>
+        <div class="shape-background-5 shape-command position-absolute"></div>
+   </section>
+
+
+
+<!-- area de contato -->
+   <section class=" py-5 position-relative">
+    <div class="bottom-complement"></div>
+
+    <div class="contato-section-area container">
+        <h1 class="text-center text-emphasis">Entre em contato</h1>
+        <h5 class="text-center mb-5 pb-5">Comece o seu período de teste gratuito de 15 dias!</h5>
+
+        <div class="contact-details d-flex position-relative">
+            <div class="tel-contact w-100 position-absolute "> 
+                <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none">
+                    <i class="fs-5 text-emphasis  fa-brands fa-whatsapp"> <span>(21) 9 7361-6161</span></i>
+                </a>
+            </div>
+            <div class="banner-contact img-container w-50">
+                <img src="/assets/public/images/contact-image.png" alt="">
+            </div>
+            <div class="contact-area flex-align w-50 align-self-start">
+                <div id="formulario" class="text-white flex-align flex-column w-100 ">
+                  
+                    <form action="https://formsubmit.co/edad193552aa797e96a12a6bec7eef 3b" method="POST" class="d-flex  flex-column gap-4 h-100 w-100 my-1"  id="form" data-form>
+                        
+                        <input type="text" id="name" name="name" class="required border-bottom" placeholder="Nome" oninput="nameValidate()">
+                        <!-- <span class="span-required">Nome deve ter no minimo 4 caracteres</span> -->
+
+                        <input type="text" id="name" name="name" class="required border-bottom" placeholder="Nome da Empresa" oninput="nameValidate()">
+                        <!-- <span class="span-required">Nome deve ter no minimo 4 caracteres</span> -->
+      
+                        <input type="email" id="email" name="email" class="required border-bottom" placeholder="E-mail" oninput="emailValidate()">
+                        <!-- <span class="span-required">Digite um email valido</span> -->
+
+                        <input type="tel" name="tel" id="telefone" class="border-bottom" placeholder="Telefone" required >
+      
+                     
+      
+                        <textarea id="message" name="message" class="required border-bottom" placeholder="Mensagem" oninput="messegeValidate()"></textarea>
+                
+                        <button  class="button-form align-self-start button-complement button-secondary rounded-3 px-5 button-hover " type="submit" data-button >Enviar</button>
+                    </form>
+                </div>
+               
+              </div>
+        </div>
+    </div>
+   </section>
+
+
+<!-- footer -->
+   <footer class="object-empashis position-relative py-4">
+
+        <div class="copy-area text-center">
+
+            <h5 class="fw-bold text-white"> Uma empresa do GRUPO AGE Assessoria </h5>
+            <div id="copyright" class="" style="color:var(--tertiary-font-color)">
+                ©Brotaki 2024 - Todos direitos reservados.
+            </div>
+        </div>
+        
+        <div class="footer-links position-absolute top-0 end-0 py-2 px-4 gap-3 d-flex"> 
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                        <i class="fs-1 text-white   fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer" class="text-decoration-none button-hover">
+                        <i class="fs-1 text-white   fa-brands fa-instagram"></i>
+                    </a>
+        </div>
+   </footer>
+
+
+    <!-- link javascript via bootstrap -->
+    <script src="/assets/public/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <!-- biblioteca de icones font awesome -->
+    <script src="https://kit.fontawesome.com/3ed61788b1.js" crossorigin="anonymous"></script>
+    <script src="/assets/public/javascript/script.js"></script>
+</body>
+
+</html>
