@@ -1,21 +1,83 @@
+@media (max-width:2560px){
+    .carousel{
+        margin-left: -10rem;
+    
+    }
+    .buttons_main_area{
+        margin-bottom: 9rem;
+    }
+    .area-wathsapp .modulo-content-area{
+        margin:10rem 0
+    }
+    .cupons-area-cards .function-cards-area{
+        margin: 20rem 0 5rem;
+    }
+    .contato-section-area{
+        margin-top:10rem
+    }
+    .plan-selectors{
+        margin-bottom:10rem !important
+    }
+  
+    .modulo-area .modulo-content-area{
+        margin:20rem 0;
+    }
+    .modulo-area .img-container img,
+    .integracao-links-area .img-container img {
+            height: auto; 
+         
+    }
+    .modulo-area .modulo-mockup-area,
+    .integracao-links-area .modulo-mockup-area{
+            margin: 8rem 10rem 0 -13rem;
+    }
+    .integracao-links-area .modulo-mockup-area{
+           margin-bottom:10rem;
+    }
+       
+    .main-items .modulo-content-area,
+    .area-integracao-ifood .modulo-content-area{
+        margin:9rem 0 6rem 0
+
+    }
+    .area-integracao-ifood .modulo-mockup-area,
+    .main-items .modulo-mockup-area{
+        position:relative;
+    }
+
+    .area-integracao-ifood .modulo-mockup-area img,
+    .main-items .modulo-mockup-area img{
+        position:absolute;
+        height:auto;
+       
+    }
+    .main-items .modulo-content-area{
+        width:50%
+
+    }
+    .main-items .modulo-mockup-area img{
+        margin-top:10rem
+           
+    }
+}
+        
 @media (max-width:1366px){
     main .information-content{
         width:50%;
-        padding-left:3rem;
     }
     main .img-container img {
-        width:auto
+        height: auto;
+        width:100%
     }
     main .banner-area{
         padding-bottom: 3rem;
     }
-
+    
     .cupons-section-area .modulo-content-area {
         width: 50%;
         padding: 0 5rem !important ;
     }
     
-
     .buttons_main_area,
     .modulo-content-area{
         margin-bottom: 9rem;
@@ -23,15 +85,40 @@
     .area-wathsapp .modulo-content-area{
         margin:10rem 0
     }
-   
- .section-modulo-delivery .modulo-mockup-area,
- .section-modulo-delivery .modulo-content-area  {
-      margin-bottom: 10rem;
+    .area-integracao-ifood .modulo-mockup-area{
+        height:auto 
+    }
+    .area-integracao-ifood .img-container img {
+        height: 84%;
+        width: 88%;
+    }
+    .integracao-links-area .img-container img {
+        margin-top: 8rem;
+        height: auto;
+    }
+    
+    .img-container img {
+        height: 88%;
+        width: 75%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .main-items .modulo-mockup-area img {
+        margin-top: 0;
+    }
+    .main-items .modulo-content-area, .area-integracao-ifood .modulo-content-area {
+        margin: 3rem 0 6rem 0;
+    }
+    .section-modulo-delivery .modulo-mockup-area,
+    .section-modulo-delivery .modulo-content-area  {
+      margin: 10rem 0;
     }
     .area-integracao-ifood .modulo-mockup-area{
         margin-bottom: -10rem;
     }
-    .integracao-links-area  .modulo-mockup-area {
+  
+    .integracao-links-area .modulo-mockup-area {
+        margin: 2rem 10rem 0 -13rem;
         margin-bottom:10rem;
     }
     .cupons-section-area .modulo-mockup-area{
@@ -41,6 +128,10 @@
     .modulo-cardapio .modulo-content-area,
     .area-integracao-ifood .modulo-content-area{
         margin-bottom: 0;
+        padding-top: 5rem;
+    }
+    .modulo-cardapio .img-container img {
+        width: 83%;
     }
     .modulo-cardapio .modulo-mockup-area{
         margin-bottom:-3rem
@@ -54,15 +145,101 @@
     .contato-section-area{
         margin-top:10rem
     }
+
 }
-@media (max-width:1024){
+
+@media (max-width:1024px){
+    .carousel {
+        margin-left: -4rem;
+    }
     .modulo-area .modulo-content-area{
-        margin-top:10rem;
+        margin: 10rem 0 10rem 12rem;
+    }
+    
+    .modulo-area .img-container img{
+
+        height: 102%;
+        width: 142%;
+    }
+    .cards-cupons-area .logo-element-background {
+       
+        margin-left: -10rem !important;
+     
+    }
+    .modulo-cardapio .modulo-mockup-area {
+        margin-bottom: -3rem;
+        width: 100% !important;
+    }
+    .modulo-cardapio .img-container img {
+        height: 94%;
+        width: 96%;
+    
+
+    }
+    .area-integracao-ifood .img-container img {
+        height: 67%;
+        width: 111%;
+    
+    }
+    
+
+    .img-container img {
+        height: 93%;
+        width: 107%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .integracao-links-area .modulo-mockup-area {
+        margin: 0 0rem 9rem -5rem;
+        width: 70% !important;
+    }
+    .modulo-content-area {
+        margin-bottom: 0;
+        width: 100%;
+    }
+    .cupons-section-area .modulo-content-area {
+        width: 50%;
+        padding: 0 0rem !important;
+    }
+    
+     .main-items .modulo-mockup-area img {
+        position: absolute;
+        height: 100%; 
+    }
+    
+    .main-items .img-container img {
+        height: 88%;
+        width: 74%;
+        
     }
 }
 @media(max-width:991px){
     main{
-        overflow-x: hidden !important;
+        overflow: hidden !important;
+    }
+    main .img-container img {
+        height: 68%;
+        width: 135%;
+    }
+    .modulo-area .img-container img{
+        height: auto;
+        margin-left: -5rem;
+    }
+    .modulo-cardapio .img-container img {
+      
+        width: 129%;
+    }
+    .area-integracao-ifood .img-container img {
+        height: 85%;
+        width: 112%;
+    }
+    .integracao-links-area .modulo-content-area {
+      
+        margin: 12rem 0;
+    }
+    .main-items .img-container img {
+        height: 88%;
+        width: 116%;
     }
     section .modulo-mockup-area{
         width:100% !important
@@ -77,14 +254,48 @@
     }
 }
 @media (max-width:768px){
+    main{
+        margin-bottom:-5px
+    }
+    main .banner-area {
+        width:100% !important
+    }
+    main .img-container {
+        padding-right: 5rem;
+    }
+   
+    .modulo-area  .img-container img {
+        width:82%;
+        margin-left: 0rem;
+    }
+
+   .area-integracao-ifood .modulo-mockup-area img, .main-items .modulo-mockup-area img {
+    position: relative;
+    width: 79%;
+    }
+    .modulo-cardapio .modulo-mockup-area {
+        margin-bottom: -4rem;
+       margin-left:-7rem
+    }
+    .modulo-cardapio .img-container img {
+        height: 81%;
+        width: 107%;
+    }
+    .modulo-cardapio{
+        flex-direction: column !important;
+    }
+    .integracao-links-area .modulo-content-area {
+        /* margin-top: 10rem; */
+        margin: 20rem 0 20rem 0;
+    }
+
     main .information-content{
-      
         padding-left:0;
     }
     main .logo-element-background{
         height:30% !important
     }
-    .cupons-area-cards .logo-element-background {
+    .cards-cupons-area .logo-element-background {
         right: 0;
         margin-right: -3rem  !important;
         z-index: -2 !important;
@@ -106,13 +317,25 @@
     .information-content p{
         text-align: center !important;
     }
-    /* main / area de integração ifood */
+
+    .section-modulo-delivery{
+        flex-direction: column-reverse;
+       
+    }
     
+    /* main / area de integração ifood */
+    .main-items {
+        flex-direction: column;
+    }
     .main-area,
     .area-integracao-ifood{
         flex-direction: column;
     }
     /* area wathsApp */
+    
+        .carousel {
+    margin-left: 0;
+    }   
     .area-wathsapp{
         flex-direction: column-reverse;
         padding-bottom:3rem;
@@ -122,24 +345,40 @@
         width:100% !important
     }
     .area-wathsapp .modulo-content-area {
-        margin: 10rem 0 0rem 0;
+        margin: 15rem 0 0rem 0;
     }
     .section-modulo-delivery .modulo-content-area{
-        margin-top:10rem
+        margin:11rem 0 0 0;
+        padding-left:3rem;
+    }
+    .section-modulo-delivery .modulo-mockup-area{
+        margin:0 0 10rem 0;
+        modulo-delivery .modulo-mockup-area {
+            margin-left: 0;
+        }
+    }
+    .img-container img {
+        height: 93%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
     }
     
 }
 
 @media (max-width:575px){
+    main{
+        margin-bottom: -2px !important;
+    }
+    main .img-container img {
+        width: 30rem;
+        margin-left: 0;
+    }
     main .logo-element-background{
         height:25% !important
     }
-    .cupons-area-cards .logo-element-background {
-        right: 0;
-        margin-right: -3rem  !important;
-        z-index: -2 !important;
-    }
-    .cupons-area-cards .logo-element-background {
+ 
+    .cards-cupons-area .logo-element-background {
         height:25% !important;
         right: 0;
         margin-right: 3rem !important;
@@ -151,10 +390,7 @@
         margin-left: -10rem;
         height:30% !important;
     }
-    .bottom-complement,
-    .top-complement{
-        margin-top: -1px;
-    }
+   
 
     /* main / area de integração ifood */
    .section-modulo-delivery,
@@ -164,11 +400,39 @@
    .contact-details{
         flex-direction: column;
     }
-    .section-modulo-delivery .list-unstyled{
-        padding-left: 2.5rem !important;
+    .section-modulo-delivery .modulo-mockup-area {
+        margin: 7rem 0 0rem 0;
     }
+   
+   .section-modulo-delivery .modulo-content-area {
+        margin: 7rem 0 10rem 0 !important;
+    }
+    .modulo-cardapio .modulo-mockup-area {
+        margin-bottom: -3rem;
+        width: 100% !important;
+        margin-left: -4rem;
+    }
+    .integracao-links-area .modulo-mockup-area {
+        margin: 0 0rem 1rem -2rem;
+        width: 90% !important;
+    }
+    .area-integracao-ifood .modulo-mockup-area img{
+        position: relative;
+        width: 90%;
+    }
+    .main-items .modulo-mockup-area img {
+        position: relative;
+        width: 90%;
+    }
+
+    .integracao-links-area .img-container img {
+        margin-top: 0; 
+         
+    }
+ 
     .section-modulo-delivery .modulo-content-area{
-        margin-top:0rem
+        margin-top:11rem;
+       padding-left: 0;
     }
     /* area wathsApp */
     .area-wathsapp .modulo-content-area {
@@ -179,6 +443,9 @@
     }
     .area-wathsapp .infomation-list{
         padding-left:0 !important
+    }
+    .cupons-area-cards .function-cards-area {
+        margin: 20rem 0 10rem 0 ;
     }
     .footer-links{
         position: relative !important;
@@ -192,6 +459,7 @@
     }
     .banner-contact{
         width:100% !important;
+        overflow-x: hidden;
     }
     .border-left{
         border-top-left-radius: 30px;
@@ -215,4 +483,41 @@
     .contact-area{
         width:90% !important
     }
+    .social-section-area{
+        justify-content: center;
+    }
+    .description-modulo{
+        align-self: center !important;
+        text-align: center !important;
+        width: 100%;
+    }
+    .button-form{
+        align-self: center !important;
+        width: 60%;
+    }
+    .section-md-header  .img-section-place{
+        height:7rem !important
+    }
+    .section-md-header  .img-section-place img{
+        height:100% !important
+    }
 }
+@media (max-width:681px){
+   
+}
+@media (max-width:425px){
+    #img-section-place{
+        height:7rem
+    }
+    #img-section-place img{
+        height:100% !important
+    }
+    .section-md-header h1{
+        font-size: calc(1.3rem + 1.5vw);
+    }
+    .section-md-header p{
+        font-size: calc(1rem + 0.3vw) !important;
+    }
+  
+}
+
